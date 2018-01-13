@@ -15,4 +15,7 @@ class Incident(models.Model):
     liked = models.IntegerField
 
 
+class FixedResponse(models.Model):
+    intent = models.CharField(max_length=200)
+    response = models.CharField(max_length=200)
 
