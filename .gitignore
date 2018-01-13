@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#migrations
+letstalkalexa/LetsTalkAlexaServer/migrations/
+letstalkalexa/LetsTalkAlexaServer/.idea/
+letstalkalexa/db.sqlite3
